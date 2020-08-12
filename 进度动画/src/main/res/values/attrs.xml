@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--通用按钮样式-->
+    <declare-styleable name="MyButton">
+        <attr name="a6btn_color">
+            <enum name="yellow" value="201" />
+            <enum name="green" value="202" />
+            <enum name="blue" value="203" />
+        </attr>
+        <attr name="a6btn_type">
+            <enum name="light" value="1001" />
+            <enum name="normal" value="1002" />
+            <enum name="action" value="1003" />
+        </attr>
+        <attr name="a6btn_action">
+            <enum name="positive" value="2001" />
+            <enum name="negative" value="2002" />
+        </attr>
+        <attr name="a6btn_enable" format="boolean" />
+        <attr name="a6btn_text" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ProgressLayout">
+        <!--        控件宽-->
+        <attr name="progressLayout_width" format="dimension" />
+        <!--        控件高-->
+        <attr name="progressLayout_height" format="dimension" />
+        <!--        外阴影宽度-->
+        <attr name="progressLayout_outer_shader_width" format="dimension" />
+        <!--        圆环宽度-->
+        <attr name="progressLayout_circle_stroke_width" format="dimension" />
+        <!--        是否是清洁模式-->
+        <attr name="progressLayout_clean_mode" format="boolean" />
+        <!--        是否执行指针上浮的初始化动画 -->
+        <attr name="progressLayout_init_anim" format="boolean" />
+        <!--        是否是保温模式-->
+        <attr name="progressLayout_keep_ware_mode" format="boolean" />
+    </declare-styleable>
+</resources>
