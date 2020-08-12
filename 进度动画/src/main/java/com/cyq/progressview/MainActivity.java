@@ -1,6 +1,7 @@
 package com.cyq.progressview;
 
 import android.content.Intent;
+import android.graphics.Paint;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -41,6 +42,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      * 当前温度
      */
     float temperature;
+    Paint paint;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
